@@ -13,7 +13,7 @@ A simple and responsive React application that displays a list of random users w
 - Error handling with user-friendly messages
 - Built with React, TypeScript, Redux Toolkit, React Router and Tailwind CSS
 
-## [Live Demo](https://)
+## [Live Demo](https://dariaradtkina.github.io/user_list/)
 
 ## Tech Stack
 
