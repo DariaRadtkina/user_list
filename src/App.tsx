@@ -1,6 +1,6 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
-import { UsersList } from './pages/UsersList'
-import { UserDetails } from './pages/UserDetails'
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { UsersList } from "./pages/UsersList";
+import { UserDetails } from "./pages/UserDetails";
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
         <Route path="/user/:userId" element={<UserDetails />} />
       </Routes>
     </Router>
-  )
+  );
 }
 
-export default App
+export default App;

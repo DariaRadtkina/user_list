@@ -2,10 +2,12 @@ import type { UserInfo, UsersApiResponse } from "../types/usersTypes";
 
 export const fetchUsersApi = async (): Promise<UserInfo[]> => {
   try {
-    const response = await fetch("https://randomuser.me/api/?results=9");
+    const response = await fetch(
+      "https://randomuser.me/api/?results=9&seed=abc",
+    );
 
     if (!response.ok) {
-      throw new Error(`Error fetching users: ${response.statusText}`);
+      throw new Error(`Error fetching users ${response.statusText}`);
     }
 
     const data: UsersApiResponse = await response.json();

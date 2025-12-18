@@ -27,8 +27,8 @@ export interface DailyForecastItem {
 export interface WeatherState {
   current: { [userId: string]: CurrentWeather };
   forecast: { [userId: string]: DailyForecastItem[] };
-  loading: boolean;
-  error: string | null;
+  weatherLoading: { [userId: string]: boolean };
+  weatherError: { [userId: string]: string | null };
 }
 
 export interface FetchWeatherParams {

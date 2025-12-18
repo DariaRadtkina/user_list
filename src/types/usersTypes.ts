@@ -8,7 +8,7 @@ export interface UserInfo {
   picture: string;
   latitude: number;
   longitude: number;
-};
+}
 
 export interface UsersApiResponse {
   results: {
@@ -20,14 +20,14 @@ export interface UsersApiResponse {
       city: string;
       country: string;
       coordinates: { latitude: string; longitude: string };
-    }
+    };
     picture: { large: string };
-  }[],
-  error?: string,
-};
+  }[];
+  error?: string;
+}
 
 export interface UsersState {
   users: UserInfo[];
-  loading: boolean;
-  error: string | null
+  usersLoading: boolean;
+  usersError: string | null;
 }

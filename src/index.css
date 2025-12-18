@@ -1,25 +1,6 @@
 @import "tailwindcss";
 
-@font-face {
-  font-family: 'Mont';
-  src: url('/fonts/Mont-Regular.otf') format('opentype');
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'MontBold';
-  src: url('/fonts/Mont-Bold.otf') format('opentype');
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'MontSemiBold';
-  src: url('/fonts/Mont-SemiBold.otf') format('opentype');
-  font-weight: normal;
-  font-style: normal;
-}
-
 body {
-  font-family: 'Mont', sans-serif;
+  background-color: rgb(235, 240, 246);
   color: #141414;
 }
